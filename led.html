@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hamdani.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>lamp control</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header1">
+            <h1 class="header2">HAMDANI CONTROL PANEL</h1>
+        </div>
+
+        <div class="isian">
+            <div>
+                <h1 class="kepala">LAMP CONTROL</h1>
+            </div>
+            <div class="led ">
+                <div class="lampu">
+                    <h3 class="judullampu">LAMPU 1</h3>
+                    <img class="imgnya" id="image1" src="aset/led-off.png" alt="ganteng" width="300" height="300">
+                    <p>
+                        <button onclick="buton1()" id="btn1" class="btn">TURN ON</button>
+                    </p>
+                </div>
+                <div class="lampu">
+                    <h3 class="judullampu">LAMPU 2</h3>
+                    <img class="imgnya" id="image2" src="aset/led-off.png" alt="ganteng" width="300" height="300">
+                    <p>
+                        <button onclick="buton2()" id="btn2" class="btn">TURN ON</button>
+                    </p>
+                </div>
+                <div class="lampu">
+                    <h3 class="judullampu">LAMPU 3</h3>
+                    <img class="imgnya" id="image3" src="aset/led-off.png" alt="ganteng" width="300" height="300">
+                    <p>
+                        <button onclick="buton3()" id="btn3" class="btn">TURN ON</button>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="botom ">
+            <div class="ukuran" onclick="location.href='/'">
+                <i class="ph ph-house"></i>
+                <p class="apk">HOME</p>
+            </div>
+            <div class="ukuran" onclick="location.href='/'">
+                <i class="ph ph-lightbulb"></i>
+                <p class="apk">LAMP</p>
+            </div>
+            <div class="ukuran" onclick="location.href='/'">
+                <i class="ph ph-fan"></i>
+                <p class="apk">FAN</p>
+            </div>
+            <div class="ukuran" onclick="location.href='/'">
+                <i class="ph ph-user"></i>
+                <p class="apk">PROFILE</p>
+            </div>
+
+
+
+        </div>
+
+</body>
+
+<script src="hamdani.js"></script>
+
+</html>
